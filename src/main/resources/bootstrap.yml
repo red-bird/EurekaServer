@@ -1,0 +1,7 @@
+spring:
+  output.ansi.enabled: ALWAYS
+  application:
+    name: discovery-server
+  cloud:
+    bootstrap:
+      enabled: true
