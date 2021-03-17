@@ -1,0 +1,34 @@
+server.port: ${EUREKA_SERVER_PORT}
+
+spring:
+  output.ansi.enabled: ALWAYS
+
+#server.port: 8761
+#spring:
+#  application:
+#    name: discovery-server
+#  cloud:
+#      ribbon:
+#        enabled: false
+#
+#management:
+#  endpoint:
+#    shutdown:
+#      enabled: true
+#    health:
+#      show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#
+#
+#eureka:
+#  instance:
+##    prefer-ip-address: true
+#    hostname: localhost
+#  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+#  server:
+#    evictionIntervalTimerInMs: 10000
